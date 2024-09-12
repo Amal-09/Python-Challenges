@@ -1,3 +1,9 @@
-ROMAN = {1:'I', 5: 'V', 10:'X', 50:'L', 100:'C'}
+timeH = 2
+timeM = 30
+print("The time now is", str(timeH) + ":" + str(timeM))
 
-print(Roman)
+user = int(input("How long in hours is the alarm: "))
+
+timeH = timeH + user
+
+print("The time now is", str(timeH) + ":" + str(timeM))
